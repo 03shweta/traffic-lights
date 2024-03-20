@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traffic-Lights</title>
+    <title>Light</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul class="list">
-        <li><button >Reset</button></li>
-        <li><button >Red</button></li>
-        <div class="circle" id="redCircle"></div>
-        <li><button >Yellow</button></li>
-        <div class="circle" id="yellowCircle"></div>
-        <li><button >Green</button></li>
-        <div class="circle" id="greenCircle"></div>
-        <li><button >All</button></li>
-        <li><button >Alt</button></li>
-      </ul>
+    <div id="main">
+    <div id="cont1">
+       
+        <div class="circle"></div>
+        <button id="reset"><a href="#reset">RESET</a></button>
+       
+        <div class="circle" id="red"></div>
+        <button><a href="#red" >RED</a></button>
+        
+        <div class="circle" id="yellow"></div>
+        <button ><a href="#yellow">YELLOW</a></button>
+        
+        <div class="circle" id="green"></div>
+        <button ><a href="#green">GREEN</a></button>
+       
+        <button ><a href="#all">ALL</a></button>
 
-    <div class="traffic-light">
-        <div class="light red"></div>
-        <div class="light yellow"></div>
-        <div class="light green"></div>
-      </div>
-      
+        <button>ALT</button>
+
+    </div>
+    <div id="containter2">
+        <div id="r" class="circle2"></div>
+        <div id="y2" class="circle2"></div>
+        <div id="g2" class="circle2"></div>
+    </div> 
+    <a href="#reset">reset</a>
+</div>
 </body>
 </html>
